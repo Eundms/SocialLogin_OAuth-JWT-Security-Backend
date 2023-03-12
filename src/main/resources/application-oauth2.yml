@@ -1,0 +1,20 @@
+auth:
+  google:
+    client-id: 구글클라이언트아이디
+    client-secret: 구글클라이언트시크릿
+    scope:
+      - email
+      - profile
+    token-req-url : https://oauth2.googleapis.com
+    kakao:
+      client-id: 카카오클라이언트아이디
+      client-secret: 카카오클라이언트시크릿
+      scope:
+        - profile_nickname
+        - profile_image
+        - account_email
+  redirect-url: http://localhost:3000
+
+custom:
+  jwt:
+    secret: jwt시크릿

@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: 데이터베이스URL
+    username: root
+    password: root
